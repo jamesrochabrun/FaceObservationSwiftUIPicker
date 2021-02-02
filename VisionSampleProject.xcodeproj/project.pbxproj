@@ -17,6 +17,7 @@
 		7B802B7525C9034D00C455E5 /* TwoStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B802B7425C9034D00C455E5 /* TwoStateButton.swift */; };
 		7B802B7A25C9037800C455E5 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B802B7925C9037800C455E5 /* ImagePicker.swift */; };
 		7B802B7F25C9176700C455E5 /* Faces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B802B7E25C9176700C455E5 /* Faces.swift */; };
+		7B802B8425C9217B00C455E5 /* VNFaceLandMarks2D+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B802B8325C9217B00C455E5 /* VNFaceLandMarks2D+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		7B802B7425C9034D00C455E5 /* TwoStateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStateButton.swift; sourceTree = "<group>"; };
 		7B802B7925C9037800C455E5 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		7B802B7E25C9176700C455E5 /* Faces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faces.swift; sourceTree = "<group>"; };
+		7B802B8325C9217B00C455E5 /* VNFaceLandMarks2D+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNFaceLandMarks2D+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				7B802B6C25C8C1E400C455E5 /* Image+Extension.swift */,
+				7B802B8325C9217B00C455E5 /* VNFaceLandMarks2D+Extension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				7B802B7A25C9037800C455E5 /* ImagePicker.swift in Sources */,
 				7B802B7525C9034D00C455E5 /* TwoStateButton.swift in Sources */,
 				7B802B6D25C8C1E400C455E5 /* Image+Extension.swift in Sources */,
+				7B802B8425C9217B00C455E5 /* VNFaceLandMarks2D+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

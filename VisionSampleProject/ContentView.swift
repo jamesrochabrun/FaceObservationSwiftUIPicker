@@ -25,7 +25,7 @@ struct ContentView: View {
     var body: some View {
         if imagePickerOpen { imagePickerView }
         if cameraOpen { cameraView }
-        if !(imagePickerOpen && cameraOpen) {
+        if !imagePickerOpen && !cameraOpen {
             mainView
         }
     }
@@ -49,6 +49,10 @@ struct ContentView: View {
         faces = []
         image?.detectFaces {
             faces = $0
+            if let image = self.image,
+               let annotatedImage = $0?.drawOn(image) {
+                self.image = annotatedImage
+            }
         }
     }
     
